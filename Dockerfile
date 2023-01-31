@@ -5,6 +5,7 @@ RUN set -eux; \
 	apt-get install -y --no-install-recommends graphviz
 
 ADD structurizr-onpremises.war /usr/local/tomcat/webapps/ROOT.war
+ADD ./usr-local/structurizr.users /usr/local/structurizr/structurizr.users
 
 ENV CATALINA_OPTS="-Xms512M -Xmx512M"
 EXPOSE 8080

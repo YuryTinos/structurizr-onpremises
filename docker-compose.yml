@@ -1,0 +1,9 @@
+version: '3'
+services: 
+    structurizr:
+        build: .
+        container_name: on-premisses
+        ports:
+            - 9000:8080
+        volumes:
+            - ./usr-local:/usr/local/structurizr/

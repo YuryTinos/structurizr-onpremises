@@ -1,3 +1,5 @@
 .structurizr
 docs/structurizr.properties
 docs/workspace.json
+usr-local/index/*
+usr-local/logs/*
