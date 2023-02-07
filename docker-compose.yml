@@ -2,7 +2,7 @@ version: '3'
 services: 
     structurizr:
         build: .
-        container_name: on-premisses
+        container_name: onpremises
         ports:
             - 9000:8080
         volumes:
